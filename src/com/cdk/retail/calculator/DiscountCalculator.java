@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * This abstract class Discount Calculator calculates the discount for a aprticular customer type
- * The child class needs to provide the Discount slabs and customertype
+ * This abstract class Discount Calculator calculates the discount for a particular customer type
+ * The child class needs to provide the Discount slabs and customer type
  */
 
 public abstract class DiscountCalculator {

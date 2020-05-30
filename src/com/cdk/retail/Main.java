@@ -11,7 +11,7 @@ import com.cdk.retail.user.CustomerType;
 public class Main {
 
     /**
-     * This Shopping cart demonstrates the use of 2 design patterns:
+     * This Shopping cart discount calculator demonstrates the use of 2 design patterns:
      * 1) Visitor
      * 2) Chain of Resposibility
      *
@@ -73,7 +73,7 @@ public class Main {
 
         shoppingCart.clearShoppingItems();
         shoppingCart.createItem("Air Conditioner", 10000);
-        shoppingCart.createItem("Referigerator", 10000);
+        shoppingCart.createItem("Refrigerator", 10000);
         finalDiscountedAmount = (int) shoppingCart.getBillAmountAfterDiscount(discountCalculator);
         System.out.println("Premium Customer Discounted Bill for purchase of $20000 :: $" + finalDiscountedAmount);
     }
